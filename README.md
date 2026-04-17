@@ -27,19 +27,6 @@ The system can also collect user-provided data, making it adaptable for differen
 
 ---
 
-## 📂 Project Structure
-
-AI-Classifier/
-│── index.html
-│── style.css
-│── script.js
-│── model/
-  ├── model.json
-  ├── metadata.json
-  └── weights.bin
-
----
-
 ## ▶️ How to Run
 
 1. Download or clone this repository
