@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Adaptive AI Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    ```
+    <h1>Adaptive AI Classifier</h1>
+
+    <!-- Start Camera -->
+    <button onclick="init()">Start Camera</button>
+
+    <!-- Webcam Output -->
+    <div id="webcam-container"></div>
+
+    <!-- Predictions -->
+    <div id="label-container"></div>
+
+    <hr>
+
+    <h2>Add Your Own Data</h2>
+
+    <!-- Input for Class -->
+    <input type="text" id="className" placeholder="Enter new class name">
+
+    <!-- Add Class -->
+    <button onclick="addClass()">Add Class</button>
+
+    <br><br>
+
+    <!-- Capture Image -->
+    <button onclick="captureImage()">Capture Image</button>
+
+    <!-- Status Message -->
+    <p id="status"></p>
+
+    <!-- TensorFlow -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0"></script>
+    
+    <!-- Teachable Machine -->
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    
+    <!-- Your Script -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
