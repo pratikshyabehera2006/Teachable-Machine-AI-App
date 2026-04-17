@@ -1,5 +1,4 @@
 # Teachable-Machine-AI-App
-# 🤖 Adaptive AI Classifier
 
 ## 📌 Project Overview
 
